@@ -1,0 +1,1 @@
+# appanalytics-react-native-bridge
