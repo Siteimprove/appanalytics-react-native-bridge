@@ -93,7 +93,7 @@ Copy the following files into the `ios` directory of your React Native project (
 Modify your `Podfile` and add the following line:
 
 ```podfile
-pod 'SiteimproveAppAnalytics', :git => 'https://github.com/Siteimprove/appanalytics-ios-sdk-public', :branch => 'main'
+pod 'SiteimproveAppAnalytics', '1.2.0'
 ```
 
 Then run:
