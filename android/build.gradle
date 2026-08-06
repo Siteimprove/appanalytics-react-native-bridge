@@ -5,7 +5,9 @@ buildscript {
         compileSdkVersion = 35
         targetSdkVersion = 34
         ndkVersion = "26.1.10909125"
-        kotlinVersion = "1.9.24"
+        // Kept in lockstep with the kotlin-stdlib force in app/build.gradle —
+        // a plugin/stdlib version mismatch causes ABI/metadata errors at build time.
+        kotlinVersion = "2.4.20"
     }
     repositories {
         google()
